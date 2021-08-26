@@ -52,7 +52,7 @@ client.on('guildMemberAdd', async member => {
             welcomeChannel.send(`**${member.user.username}** Hi | Welcome To **${member.guild.name}** Server!`, file);
         }, 2000);
     } else {
-        console.log("Welcome Channel Yaft Nashod")
+        console.log("Err")
     }
 })
 client.login(config.token);
