@@ -14,9 +14,9 @@ client.once('ready', () => {
 });
 
 client.on('guildMemberAdd', async member => {
-    let welcomeChannel = client.channels.cache.get("875403785936199744")
+    let welcomeChannel = client.channels.cache.get("CHANNEL ID")
     if (welcomeChannel) {
-        let background = await Canvas.loadImage("https://media.discordapp.net/attachments/875403785936199744/880478524044103750/RbmaVkljfGLDG3wN-pic-jpg.png");
+        let background = await Canvas.loadImage("BACKGROUND LINK");
         let avatar = await Canvas.loadImage(
           member.user.displayAvatarURL({ format: "png" })
         );
